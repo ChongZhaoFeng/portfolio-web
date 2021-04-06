@@ -1,11 +1,17 @@
 <?php
 
-$dbServername = "localhost";
-$dbUsername = "zf";
-$dbPassword = "";
-$dbName = "portfolio";
+$firstName = $_POST['firstname']
+$lastName = $_POST['lastname'];
+$email = $_POST['email'];
+$subject = $_POST['subject'];
 
-$conn = mysql_connect($dbServername,$dbUsername,$dbPassword,$dbName);
+
+$dbServername = 'localhost';
+$dbUsername = 'zf';
+$dbPassword = '';
+$dbName = 'portfolio';
+
+$conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);
 
 if ($conn->connect_error){
     die("Connection failed: ". $conn->connect_error);
