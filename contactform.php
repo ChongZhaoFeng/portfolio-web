@@ -1,9 +1,7 @@
 <?php
 
-
-
 $dbServername = 'localhost';
-$dbUsername = 'zf';
+$dbUsername = 'root';
 $dbPassword = '';
 $dbName = 'portfolio';
 
