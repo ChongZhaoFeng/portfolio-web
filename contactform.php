@@ -13,12 +13,6 @@ $query=mysqli_query($conn, "INSERT INTO contactform (firstname, lastname, email,
                             
 mysqli_close($conn);
 
-$mailTo = "zfchong009@gmail.com";
-$headers = "From: Portfolio Website";
-$txt = "You have received an email from ".$lastname.".\n\n".$subject;
-
-mail($mailTo,$subject,$txt,$headers);
-
 
 
 header("location:index.html?note=success");
