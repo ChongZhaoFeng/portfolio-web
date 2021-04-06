@@ -64,7 +64,7 @@ a#pdf:hover { background: #222; }
 
 
 
-  @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+  @import url("//fonts.googleapis.com/css?family=Roboto&display=swap");
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
