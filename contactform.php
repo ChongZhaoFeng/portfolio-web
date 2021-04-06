@@ -1,9 +1,5 @@
 <?php
 
-$firstName = $_POST['firstname']
-$lastName = $_POST['lastname'];
-$email = $_POST['email'];
-$subject = $_POST['subject'];
 
 
 $dbServername = 'localhost';
