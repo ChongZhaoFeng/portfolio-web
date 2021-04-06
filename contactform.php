@@ -20,7 +20,6 @@ $subject = $_POST['subject'];
 
 $query=mysqli_query($conn,"INSERT INTO 
                             contactform(
-                            contact_id,
                             firstname, 
                             lastname, 
                             email, 
