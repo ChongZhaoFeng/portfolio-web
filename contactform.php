@@ -13,8 +13,8 @@ if ($conn->connect_error){
 echo "Connected Successfully";
 
 
-$firstname = $POST['firstname'];
-$lastname = $POST['lastname'];
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
 $email = $_POST['email'];
 $subject = $_POST['subject'];
 
